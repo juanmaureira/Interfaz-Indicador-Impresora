@@ -1,2 +1,23 @@
-# Interfaz-Indicador-Impresora
-Interfaz para el indicador HC-200 con impresora
+<style>
+h1{
+    text-align: center;
+}
+p{
+    color:blue;
+}
+</style>
+
+<h1>Interfaz-Indicador-Impresora</h1>
+<p>Interfaz para el indicador HC-200 o indicador K7 con impresora GP-1125Z (Zebra) o TLP-2844</p>
+
+<h3> String Indicador K7</h3>
+No.0002 13-05-2021  15:51:16 112.45kg
+<h3> Hexadecimal Indicador K7</h3>
+0D 0A 4E 6F 2E 30 30 30 32 20 31 33 2D 30 35 2D 32 30 32 31 20 31 35 3A 35 31 3A 31 36 20 20 31 31 32 2E 34 35 6B 67 0D 0A
+
+<h3> String Indicador HC200</h3>
+28-05-2020 15:48:02   12 W    1.40kg     0.00kg    1.40kg   24.54kg
+<h3> Hexadecimal Indicador HC200</h3>
+------------11 byte-------------|---------9 byte-----------|-----7 byte--------|--------10 byte---------------|--------11 byte-----------------|--------10 byte--------------|--------10 byte--------------|-------------13 byte-----------------|
+32 38 2D 30 35 2D 32 30 32 30 20 31 35 3A 34 38 3A 30 32 20 20 20 31 32 20 57 20 20 20 20 31 2E 34 30 6B 67 20 20 20 20 20 30 2E 30 30 6B 67 20 20 20 20 31 2E 34 30 6B 67 20 20 20 32 34 2E 35 34 6B 67 20 20 20 20 20 20 20 20 20 20 20 20 0D 0A
+|---------DATE------------------|---------HORA-------------|-----No------------|-----------NET----------------|-----------TARE-----------------|----------GROSS--------------|---------TOTAL---------------|--------------FINAL DATA-------------| 
