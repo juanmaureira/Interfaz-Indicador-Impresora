@@ -1,0 +1,11 @@
+*.STA
+*.lst
+*.hex
+*.sym
+*.tre
+*.err
+*.cof
+*.ccspjt
+*.mcp
+*.mcs
+*.mcw
